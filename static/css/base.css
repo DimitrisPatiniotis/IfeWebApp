@@ -3,3 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* CALCULATION */
+.calc-section {
+    height: calc(100vh - 50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
