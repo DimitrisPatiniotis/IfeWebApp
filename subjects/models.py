@@ -1,6 +1,5 @@
 from django.db import models
 
-
 class Subject(models.Model):
     name = models.CharField(blank=True, null=True, max_length=58)
     code = models.CharField(blank=True, null=True, max_length=7)
